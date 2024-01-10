@@ -205,6 +205,8 @@ header input[type='button'] {
 
 .aboutData h3 {
   font-size: 13pt;
+  margin-left: -20px;
+  width: 160px;
 }
 
 .aboutData h1 {
