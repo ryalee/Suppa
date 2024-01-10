@@ -1,0 +1,152 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Satoshi', sans-serif;
+  background-color: #050f28;
+}
+
+header {
+  background-color: #182337;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 10px 20px;
+}
+
+.logo i {
+  font-size: 20pt;
+  margin-right: 7px;
+}
+
+.menu {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 18px;
+  margin-left: -780px;
+}
+
+.menuItem {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 10pt;
+}
+
+header input[type='button'] {
+  cursor: pointer;
+  background-color: #fff;
+  color: #050f28;
+  position: absolute;
+  height: 72px;
+  margin-top: -10px;
+  margin-left: 1145px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-weight: bold;
+  font-size: 11pt;
+  border: 1px solid;
+}
+
+.hero {
+  border-radius: 20px;
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.sideText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sideTopText {
+  color:  #050f28;
+  margin-top: -526px;
+  margin-left: 20px;
+  padding: 40px 0 40px 20px;
+  position: absolute;
+  width: 350px;
+  border-left: 5px solid #050f28;
+}
+
+.sideTopText h1 {
+  font-size: 30pt;
+}
+
+.sideTopText h3 {
+  font-size: 13pt;
+}
+
+.sideTopText p {
+  font-size: 11pt;
+  width: 300px;
+}
+
+.sideBottomText {
+  position: absolute;
+  padding: 50px 0 50px 70px;
+  width: 350px;
+  height: 240px;
+  margin-top: 260px;
+  margin-left: -71px;
+  border-radius: 80px;
+  border: 25px solid #050f28;
+}
+
+.sideBottomText h2 {
+  font-size: 20pt;
+}
+
+.sideBottomText h3 {
+  font-size: 13pt;
+}
+
+.sideBottomText input {
+  background-color: #050f28;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.heroMain {
+  position: relative;
+  border-radius: 20px;
+  margin: 10px 450px;
+  padding: 12px;
+}
+
+.heroTitle {
+  color: #050f28;
+  font-size: 40pt;
+  width: 600px;
+  margin-left: 20px;
+}
+
+.heroMain img {
+  width: 780px;
+  border-radius: 20px;
+  margin-left: -30px;
+}
